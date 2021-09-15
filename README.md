@@ -41,5 +41,5 @@ $ sudo -E env PATH=$PATH python joytransfer.py
 #### DEMO IN YOUTUBE
 [https://www.youtube.com/watch?v=GBxLCyi0jz8](https://www.youtube.com/watch?v=GBxLCyi0jz8) 
 
-#### FIXME
+#### FIXME, connect joycon after sync cause disconnection
 [https://www.youtube.com/watch?v=XbHErgeM34E](https://www.youtube.com/watch?v=XbHErgeM34E) 
