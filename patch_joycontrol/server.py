@@ -96,8 +96,8 @@ async def create_hid_server(protocol_factory, ctl_psm=17, itr_psm=19, device_id=
             await asyncio.sleep(1)
             hid = HidDevice(device_id=device_id)
 
-            ctl_sock.bind((bt_addr, ctl_psm))
-            itr_sock.bind((bt_addr, itr_psm))
+            ctl_sock.bind((socket.BDADDR_ANY, ctl_psm))
+            itr_sock.bind((socket.BDADDR_ANY, itr_psm))
 
         ctl_sock.listen(1)
         itr_sock.listen(1)
